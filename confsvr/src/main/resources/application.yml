@@ -9,7 +9,7 @@ spring:
         encrypt.enabled: false
         git:
           uri: https://github.com/tj-spring/config-server
-          searchPaths: assetservice,organizationservice,specialroutesservice
+          searchPaths: assetservice,organizationservice,zuulservice,specialroutesservice
           username: tj-spring
           password: SpringB00t
 

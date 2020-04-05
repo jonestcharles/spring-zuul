@@ -49,11 +49,11 @@ eureka:
     #assetservice: /asset/**
 
   # section 6.3.3 Mapping the licensing service to a static route. Use case 6
-zuul:
-  routes:
-    assetstatic:
-      path: /assetstatic/**
-      url:  http://assetservice-static:8081
+#zuul:
+  #routes:
+    #assetstatic:
+      #path: /assetstatic/**
+      #url:  http://assetservice-static:8081
 
 # section 6.3.3 Mapping licensing service statically to multiple routes. Use Case 7
 #zuul:
